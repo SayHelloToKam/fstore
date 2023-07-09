@@ -1,0 +1,20 @@
+.homepage-container {
+  padding: 50px 0;
+}
+
+.categories-container {
+  display: flex;
+  gap: 20px;
+}
+
+.categories-container a {
+  color: #5264c3;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  gap: 30px;
+}

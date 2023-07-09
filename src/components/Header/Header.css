@@ -1,0 +1,30 @@
+.header-container {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.branding {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.cart-box {
+  position: relative;
+}
+
+.cart-icon {
+  font-size: 30px;
+}
+
+.cart-number {
+  background-color: red;
+  color: #ffffff;
+  padding: 4px 6px;
+  font-size: 9px;
+  border-radius: 12px 14px;
+  position: absolute;
+  top: -6px;
+  left: 7px;
+}
